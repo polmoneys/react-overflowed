@@ -1,0 +1,35 @@
+.overflowed-container {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.overflowed-viewport {
+    display: flex;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    align-items: center;
+    cursor: grab;
+    user-select: none;
+
+    &.idle {
+        cursor: auto;
+    }
+}
+
+.overflowed-progress {
+    position: relative;
+    height: 12px;
+    width: 100%;
+    background-color: #ddd;
+}
+
+.overflowed-bar {
+    position: absolute;
+    height: 12px;
+    width: 0%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: currentColor;
+}
