@@ -1,4 +1,4 @@
-# <Overflowed>
+# Overflowed
 
 Lil' Component that acts as a draggable container while filtering tap (click/touch) so that user can interact with 'children' elements. It's build upon the shoulder of giants with **react-use-gesture** and **react-spring**. Typescript, Rollup.
 
